@@ -45,11 +45,11 @@ h4 {
   margin-bottom: 50px;
   border-radius: 50%;
   border: 4px dashed transparent;
-  transition: padding 0.3s;
+  /*transition: padding 0.3s;*/
 }
 
 .section-team .single-person:hover .person-image {
-  padding: 12px;
+  /*padding: 12px;*/
   border: 4px dashed #fff;
 }
 
