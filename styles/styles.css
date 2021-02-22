@@ -98,3 +98,11 @@ h4 {
 .section-team .single-person:hover .speciality {
   color: #fff;
 }
+
+.fa-linkedin-in {
+  color: black;
+}
+
+.fa-github {
+  color: black;
+}
