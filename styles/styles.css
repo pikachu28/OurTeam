@@ -27,6 +27,12 @@ h4 {
 .section-team .header-section .title {
   font-weight: 700;
   font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(68, 65, 223, 0.89);
+  text-shadow: 2px -2.5px #e5e5e5;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 
 .section-team .single-person {
