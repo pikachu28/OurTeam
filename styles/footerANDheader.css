@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Poppins', arial;
+}
+
+
+section {
+    padding: 4em 2em 4em 2em;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  
+  .nav-container {
+    background: #4164DF;
+  }
+  
+  .nav-container a {
+    color: #3FE4DB;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2em;
+  }
+  
+  header .logo {
+    color: white;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  header nav ul a {
+    display: block;
+    padding: 0 1em;
+  }
+
+.footer {
+    background: #4164DF;
+    text-align: center;
+    padding: 4em;
+  }
+  
+  .footer p {
+    color: #e5e5e5;
+  }
+  
+  .footer-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    height: 40%;
+    width: 60%;
+  }
+  
+  .footer-social p {
+    font-weight: bold;
+    color: rgba(65, 223, 223, 0.86);
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+  }
+  
+  .footer-social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .footer-social ul a {
+    margin: 2em;
+  }
+  
+  .footer-social ul img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .copyright-section {
+    color: rgba(68, 65, 223, 0.7);
+    padding: 1em;
+  }
+  
+
+  .desc {
+    font-weight: 300;
+    font-size: 1em;
+    color: #616161;
+  }
+  
